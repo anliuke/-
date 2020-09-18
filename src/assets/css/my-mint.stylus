@@ -1,0 +1,95 @@
+$color-primary = #05AFAF;
+$color-radio = #FF4C21;
+.mint-header 
+    background-color $color-primary
+
+.mint-button:not(.is-disabled):active::after 
+    opacity .2 /* .6 */
+
+.mint-button--primary 
+    background-color $color-primary
+
+.mint-button--primary.is-plain 
+    border 1px solid $color-primary
+    color $color-primary
+
+.mint-badge.is-primary 
+    background-color $color-primary
+
+.mint-switch-input:checked + .mint-switch-core 
+    border-color $color-primary
+    background-color $color-primary
+
+.mint-navbar .mint-tab-item.is-selected 
+    border-bottom 3px solid $color-primary
+    color $color-primary
+
+.mint-tabbar > .mint-tab-item.is-selected 
+    color $color-primary
+
+.mint-searchbar-cancel 
+    color $color-primary
+
+.mint-checkbox-input:checked + .mint-checkbox-core 
+    background-color $color-primary
+    border-color $color-primary
+
+.mint-radio-input:checked + .mint-radio-core 
+    background-color: $color-radio
+    border-color: $color-radio
+    border-radius 0.04rem
+
+.mt-range-progress 
+    background-color $color-primary
+
+.mt-progress-progress 
+    background-color $color-primary
+
+.mint-msgbox-confirm 
+    color $color-primary
+
+.mint-msgbox-confirm:active 
+    color $color-primary
+
+.mint-datetime-action 
+    color $color-primary
+
+.mint-radiolist-title
+    margin 0rem    
+
+.mint-cell
+    min-height 0.46rem
+    
+.mint-cell:last-child 
+    background-size 100% 0px
+
+.mint-radio-core
+    width 0.28rem
+    height 0.28rem
+    position inherit 
+    border-radius 0rem  
+
+.mint-radio-label
+    margin-left 0.13rem
+
+.mint-radiolist-label
+    padding 0 0.3rem
+
+.mint-toast-text
+    color #ffffff
+
+.mint-msgbox-btns
+    height 0.8rem
+    line-height 0.8rem
+
+.mint-msgbox-confirm
+    color #4bb54f
+    font-size 0.28rem
+
+.mint-msgbox-message
+    font-size 0.28rem
+
+.mint-cell-wrapper
+    background-size 120% 0px
+
+  
